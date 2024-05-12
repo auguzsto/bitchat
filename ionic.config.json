@@ -1,0 +1,7 @@
+{
+  "name": "bitchat",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
