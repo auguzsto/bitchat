@@ -1,0 +1,33 @@
+<ion-content [fullscreen]="true">
+  <div class="h-full flex justify-center items-center">
+    <div class="columns-1	space-y-2 w-96">
+        <div class="flex justify-center items-center">
+          <h1 class="text-4xl">Criar conta</h1>
+        </div>
+        <ion-input
+        type="email"
+        fill="outline"
+        label="Email"
+        labelPlacement="floating"
+        errorText="Email inválido"
+        ngModel
+        email
+      ></ion-input>
+      <ion-input
+        type="password"
+        fill="outline"
+        label="Senha"
+        labelPlacement="floating"
+        ngModel
+      ></ion-input>
+      <ion-input
+        type="password"
+        fill="outline"
+        label="Repita sua senha"
+        labelPlacement="floating"
+        ngModel
+      ></ion-input>
+    <ion-button expand="block" class="h-12 text-white">Registrar</ion-button>
+    </div>
+  </div>
+</ion-content>
